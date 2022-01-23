@@ -1,0 +1,99 @@
+<engineinline>sky</engineinline>
+<entity>
+    <location>3,3,3</location>
+    <resource>ent.xml</resource>
+</entity>
+<mapgeometry>
+
+	<!-- TODO: -->
+	<!-- Left + Right Walls -->
+	<!-- More jumps -->
+
+    <quad></quad>
+
+	<!-- Starting square -->
+    <vertice>0.0, 0.0, 0.0</vertice>
+    <vertice>0.0, 0.0, 12.0</vertice>
+    <vertice>12.0, 0.0, 0.0</vertice>
+    <vertice>12.0, 0.0, 12.0</vertice>
+
+    <!-- Back Wall -->
+    <vertice>0.0, 0.0, 0.0</vertice>
+    <vertice>0.0, 0.0, 12.0</vertice>
+    <vertice>0.0, 25.0, 0.0</vertice>
+    <vertice>0.0, 25.0, 12.0</vertice>
+
+    <!-- Starting square -->
+    <vertice>0.0, 0.0, 0.01</vertice>
+    <vertice>65.0, 65.0, 12.0</vertice>
+    <vertice>0.0, 0.0, 0.01</vertice>
+    <vertice>65.0, 65.0, 12.0</vertice>
+
+    <!-- Top Roof -->
+    <vertice>0.0, 25.0, 0.0</vertice>
+    <vertice>0.0, 25.0, 12.0</vertice>
+    <vertice>65.0, 25.0, 0.0</vertice>
+    <vertice>65.0, 25.0, 12.0</vertice>
+
+    <!-- First Jump -->
+    <vertice>12.0, 8.0, 0.0</vertice>
+    <vertice>12.0, 8.0, 12.0</vertice>
+    <vertice>36.0, 8.0, 0.0</vertice>
+    <vertice>36.0, 8.0, 12.0</vertice>
+
+    <!-- First Jump Wall -->
+    <vertice>12.0, 0.0, 0.0</vertice>
+    <vertice>12.0, 0.0, 12.0</vertice>
+    <vertice>12.0, 8.0, 0.0</vertice>
+    <vertice>12.0, 8.0, 12.0</vertice>
+
+    <!-- First Ramp -->
+    <vertice>36.0, 8.0, 0.0</vertice>
+    <vertice>36.0, 8.0, 12.0</vertice>
+    <vertice>48.0, 12.0, 0.0</vertice>
+    <vertice>48.0, 12.0, 12.0</vertice>
+
+    <!-- Second Square -->
+    <vertice>48.0, 12.0, 0.0</vertice>
+    <vertice>48.0, 12.0, 12.0</vertice>
+    <vertice>65.0, 12.0, 0.0</vertice>
+    <vertice>65.0, 12.0, 12.0</vertice>
+
+    <!-- Second Square Wall -->
+    <vertice>65.0, 12.0, 0.0</vertice>
+    <vertice>65.0, 12.0, 12.0</vertice>
+    <vertice>65.0, 25.0, 0.0</vertice>
+    <vertice>65.0, 25.0, 12.0</vertice>
+
+    <!-- Field square -->
+    <vertice>0.0, 0.0, 0.0</vertice>
+    <vertice>0.0, 0.0, -50.0</vertice>
+    <vertice>65.0, 0.0, 0.0</vertice>
+    <vertice>65.0, 0.0, -50.0</vertice>
+
+    <!-- Field square roof -->
+    <vertice>0.0, 25.0, 0.0</vertice>
+    <vertice>0.0, 25.0, -50.0</vertice>
+    <vertice>65.0, 25.0, 0.0</vertice>
+    <vertice>65.0, 25.0, -50.0</vertice>
+
+    <vertice>0.0, 25.25, 0.0</vertice>
+    <vertice>0.0, 25.25, -50.0</vertice>
+    <vertice>65.0, 25.25, 0.0</vertice>
+    <vertice>65.0, 25.25, -50.0</vertice>
+
+    <!-- Textures -->
+    <texture>a.bmp</texture>
+	<texture>b.bmp</texture>
+	<texture>c.bmp</texture>
+	<texture>d.bmp</texture>
+	<texture>e.bmp</texture>
+	<texture>f.bmp</texture>
+	<texture>g.bmp</texture>
+	<texture>h.bmp</texture>
+	<texture>i.bmp</texture>
+	<texture>j.bmp</texture>
+	<texture>k.bmp</texture>
+	<texture>l.bmp</texture>
+
+</mapgeometry>

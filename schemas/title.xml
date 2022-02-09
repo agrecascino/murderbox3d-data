@@ -1,7 +1,8 @@
 <schema>
 	<text x="0.2" y="0.75" scl="3.0">BOXMURDER3D</text>
-	<text x="0.2" y="0.68"  scl="1.0">A new form of violence...</text>
-	<text x="0.1" y="0.5"  scl="1.0">Singleplayer</text>
-	<text x="0.1" y="0.45" scl="1.0">Multiplayer</text>
-	<text x="0.1" y="0.3"  scl="1.0">Quit</text>
+	<text x="0.2" y="0.68" scl="1.0">A new form of violence...</text>
+	<text align="left" x="0.05" y="0.5"  scl="1.0">Singleplayer</text>
+	<text align="left" x="0.05" y="0.45" scl="1.0">Multiplayer</text>
+	<text align="left" x="0.05" y="0.3"  scl="1.0">Options</text>
+	<text action="exit" align="left" x="0.05" y="0.1"  scl="1.0">Quit</text>
 </schema>
